@@ -100,6 +100,6 @@ Click on the Azure Icon on the Left Icon Panel, and then click _Deploy to Functi
 Select the subscription and function app accordingly. Once the deployment is done,
 you can point your browser to
 ```
-http://localhost:7071/api/AddressSearch
-http://localhost:7071/api/ReverseGeo
+http://<function-app-host>/api/AddressSearch
+http://<function-app-host>/api/ReverseGeo
 ```
